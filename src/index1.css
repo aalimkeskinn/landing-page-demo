@@ -1,0 +1,186 @@
+
+.topbar {
+    padding:10px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:25px;
+    background-color: blue;
+    text-align: center;
+    font-family: Verdana,Geneva,sans-serif;  
+    font-size:14px;  
+    color:white;
+    z-index: 2;
+
+    
+}
+
+
+ .logo{
+        margin-top: 40px;
+        margin-right: 50px px;
+        width: 25%;
+        float: left;
+
+        
+        }
+
+
+
+
+.main-menu{
+    float: left;
+
+    width: 50%;
+
+
+
+
+}
+.right-menu{
+
+    float: right;
+    width: 25%;
+
+
+
+
+}
+.box{
+    
+    background-color:white;
+    border-radius: 28px;
+    border: 1px solid grey;
+    color:blue;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align:center;
+    font-family: Verdana,Geneva,sans-serif;  
+    font-size:12px; 
+    font-weight: bold;
+    margin-right: 15px;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    float: left;
+
+
+
+  }
+
+  .box a{
+    text-decoration: none;
+    color:blue;
+    display: block;
+
+
+  }
+
+ul.header li  { 
+    float: left;
+    list-style-type:none;
+    font-family: Verdana,Geneva,sans-serif;  
+    font-size:14px;   
+    
+
+
+
+}
+
+ul.header li a{
+   
+
+    text-decoration: none;
+    display: block;
+    color:gray;
+    padding: 40px 30px;
+
+}
+
+ul.header li a.active {
+    color:black;
+    border-bottom: 3px solid blue;
+
+
+  }
+
+  ul.header li a:hover {
+    color:black;
+  }
+
+  .test1 {
+    float: left;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size:16px;
+    color:grey;
+    background-color: #FFF;
+    padding: 50px 100px 0px 80px;
+    width:40%;
+    margin-top: 100px;
+    margin-left: 50px;
+   
+  }
+  .test1 h2 {
+    color:black;
+    font-family: Verdana,Geneva,sans-serif;  
+    font-size:60px;
+    line-height: 60px;
+
+
+ 
+    
+  }
+  .test1 p{
+    line-height: 30px;
+    width: 80%;
+
+  }
+
+  .test1 button{
+    background-color: blue;
+    border-radius: 28px;
+    border: 1px solid blue;
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 16px 45px;
+  
+
+
+  
+}
+
+
+  .test2 {
+      float: left;
+      margin-top: 160px;
+      margin-left: 80px;
+  
+  }
+
+ .test3{
+     margin-top: 150px;
+     width: 100%;
+     float: left;
+     text-align: center;
+     font-size: 30px;
+ }
+ 
+  
+ 
+  .nav-bar{
+    overflow: hidden;
+    background-color:white;
+    padding: 30px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0px; /* At the top */
+    z-index: 1;
+
+  }
+
+  
+ 
+
+
